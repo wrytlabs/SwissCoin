@@ -1,11 +1,11 @@
 {
-	"name": "@wrytlabs/core",
+	"name": "@wrytlabs/swisscoin",
 	"version": "0.0.1",
 	"private": false,
 	"license": "MIT",
 	"main": "index.ts",
 	"author": "samclassix <samclassix@proton.me>, wrytlabs <wrytlabs@proton.me>",
-	"description": "Core implementation",
+	"description": "SwissCoin implementation",
 	"directories": {
 		"doc": "docs",
 		"test": "tests"
@@ -19,13 +19,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/wrytlabs/core"
+		"url": "git+https://github.com/wrytlabs/SwissCoin"
 	},
 	"keywords": [],
 	"bugs": {
-		"url": "https://github.com/wrytlabs/core/issues"
+		"url": "https://github.com/wrytlabs/SwissCoin/issues"
 	},
-	"homepage": "https://github.com/wrytlabs/core#readme",
+	"homepage": "https://github.com/wrytlabs/SwissCoin#readme",
 	"devDependencies": {
 		"@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
 		"@nomicfoundation/hardhat-ethers": "^3.0.8",
@@ -49,10 +49,8 @@
 		"viem": "^2.21.16"
 	},
 	"dependencies": {
-		"@openzeppelin/contracts": "3.4.2",
+		"@openzeppelin/contracts": "^5.0.2",
 		"@typechain/ethers-v6": "^0.5.0",
-		"@uniswap/v3-core": "^1.0.1",
-		"@uniswap/v3-periphery": "^1.4.4",
 		"hardhat": "^2.22.10",
 		"hardhat-abi-exporter": "^2.10.1",
 		"hardhat-contract-sizer": "^2.5.1",
